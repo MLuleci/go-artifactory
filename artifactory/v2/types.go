@@ -11,5 +11,7 @@ type Service struct {
 type V2 struct {
 	common Service
 
+	Groups   *GroupsService
 	Security *SecurityService
+	Users    *UsersService
 }
